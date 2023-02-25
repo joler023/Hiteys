@@ -3,6 +3,18 @@ import React from "react";
 const Inicio = () => {
   return (
     <div>
+      <header>
+        <div>
+          <div className="contenedor">
+            <div className="tarjeta"></div>
+          </div>
+          <div className="opacidad-inicio"></div>
+          <div className="fondo-inicio"></div>
+          <div className="inicio">
+            <h2>prueba</h2>
+          </div>
+        </div>
+      </header>
       <div>
         <h2>Titulo</h2>
         <p>
@@ -47,7 +59,10 @@ const Inicio = () => {
       <div>
         <h5>Nuestro stack de tecnologias</h5>
         <h3>Modern Technologies To Drive You Forward</h3>
-        <p>We build on both proven and emerging technologies to guide our clients toward the best solution for their individual challenges.</p>
+        <p>
+          We build on both proven and emerging technologies to guide our clients
+          toward the best solution for their individual challenges.
+        </p>
         <div>
           <img src="" alt="" />
           <h4>React.JS</h4>
